@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.get {
+    background-color: red;
+}
+
+.sign {
+    background-color: red;
+}
+
+
+::-webkit-scrollbar { 
+    width: 8px; 
+    background-color: black;
+} 
+  
+  
+::-webkit-scrollbar-thumb { 
+    background: red; 
+    border-radius: 10px; 
+    cursor: pointer;
+} 
+  
+
+/*sm*/
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    Nav {
+        font-size: 10px;
+        margin-top: -115px;
+    }
+    /*First Page*/
+    .up {
+        position: relative;
+        top: 60px;
+    }
+    svg {
+        width: 100px;
+    }
+    .one input {
+        font-size: smaller;
+        width: 50%;
+        height: 90%;
+    }
+    .get {
+        font-size: small;
+    }
+    .one h1{
+        font-size: small;
+    }
+    .one p {
+        font-size: x-small;
+    }
+    /*Second Page*/
+    .second {
+        margin-top: 4px;
+    }
+    .two img{
+        width: 40%;
+    }
+    .two p {
+        font-size: x-small;
+        margin-left: -10px;
+    }
+    .two h1 {
+        font-size: larger;
+    }
+    /*Third Page*/
+    .three img{
+        width: 40%;
+    }
+    .three p {
+        font-size: x-small;
+        margin-left: -10px;
+    }
+    .three h1 {
+        font-size: larger;
+    }
+    /*Fourth Page*/
+    .fourth {
+        margin: 0;
+    }
+    .four h1 {
+        font-size: x-large;
+    }
+    .four p {
+        font-size: large;
+        margin-left: -10px;
+    }
+    /*Fifth Page*/
+    .five img{
+        width: 40%;
+    }
+    .five p {
+        font-size: x-small;
+        margin-left: -10px;
+    }
+    .five h1 {
+        font-size: larger;
+    }
+    /*Sixth Page*/
+    .sixth {
+        margin-top: 4px;
+        margin: 0;
+        margin-left: -10px;
+    }
+    .six p {
+        font-size: x-small;
+    }
+    .six h1 {
+        font-size: larger;
+    }
+    .six input {
+       width: 100%;
+    }
+    .six button {
+       font-size: small;
+       width: 100%;
+    }
+    .footer {
+        font-size: x-small;
+    }
+    .en {
+        width: 100%;
+        margin-left: -5px;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1497px) {
+    /*First Page*/ 
+    Nav {
+        margin-top: -70px;
+    }
+    /*Second Page*/ 
+    .second {
+        margin-top: 4px;
+    }
+    .two img{
+        width: 40%;
+    }
+    .two p {
+        font-size: large;
+    }
+    .two h1 {
+        font-size: x-large;
+    }
+    /*Third Page*/
+    .three img{
+        width: 40%;
+    }
+    .three p {
+        font-size: large;
+    }
+    .three h1 {
+        font-size: x-large;
+    }
+    /*Fourth Page*/
+    .four h1 {
+        font-size: xx-large;
+    }
+    .four p {
+        font-size: x-large;
+    }
+    /*Fifth Page*/
+    .five img{
+        width: 40%;
+    }
+    .five p {
+        font-size: large;
+    }
+    .five h1 {
+        font-size: x-large;
+    }
+    /*Sixth Page*/
+    .sixth {
+        margin-top: 4px;
+        margin: 0;
+        margin-left: -10px;
+    }
+    .six p {
+        font-size: large;
+    }
+    .six h1 {
+        font-size: larger;
+    }
+    .six input {
+       width: 100%;
+    }
+    .six button {
+       font-size: small;
+       width: 100%;
+    }
+    /*Footer*/
+    .footer {
+        font-size: x-small;
+    }
+    .en {
+        width: 100%;
+        margin-left: -5px;
+    }
+}
